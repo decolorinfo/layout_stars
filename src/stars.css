@@ -5,9 +5,13 @@
 .stars__star {
   width: 16px;
   height: 16px;
+  border-radius: 0.5px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 80%;
+  flex-shrink: o;
+  align-items: center;
+  justify-content: center;
 }
 
 .stars__star:not(:last-child) {
